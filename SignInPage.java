@@ -10,7 +10,7 @@ import com.bb.base.Page;
 public class SignInPage extends Page {
     public MyAccountPage getSignIn() {
     	type("user_ID","amirsamkavin@gmail.com");
-    	type("password_ID","Sameera*1");
+    	type("password_ID","*******");
     	click("signIn_btn_XPATH");
     	return new MyAccountPage();
 		
